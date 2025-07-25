@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @RestController
 @RequestMapping("/api/attendance")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://sanjaikumarmr.github.io")
 public class AttendanceController {
 
     @Autowired
