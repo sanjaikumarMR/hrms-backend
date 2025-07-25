@@ -8,7 +8,7 @@ import com.hrms.model.FaceRegisterRequest;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://127.0.0.1:5500") // Enable CORS for your frontend
+@CrossOrigin(origins = "https://sanjaikumarmr.github.io") // Enable CORS for your frontend
 @RestController
 public class FaceController {
 
