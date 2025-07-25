@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "http://127.0.0.1:5500")  // Allow frontend origin
+@CrossOrigin(origins = "https://sanjaikumarmr.github.io")  // Allow frontend origin
 @RestController
 @RequestMapping("/api/users")
 
