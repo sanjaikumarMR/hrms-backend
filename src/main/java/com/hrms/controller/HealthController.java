@@ -1,14 +1,9 @@
 package com.hrms.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import com.hrms.service.FaceService;
-import com.hrms.model.FaceRegisterRequest;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
-
+@RestController
 public class HealthController {
 
     @GetMapping("/ping")
